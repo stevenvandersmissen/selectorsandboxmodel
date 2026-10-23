@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS opbouwen · van selector tot doos · Steven Vandersmissen</title>
+  <meta name="author" content="Steven Vandersmissen" />
+  <meta name="description" content="CSS leren zoals het werkt: de vijf basis-selectors, de combinatoren (descendant, child, adjacent en general sibling) en het box model, met een tekening van de doos. Eén css-vlak om in te typen, een live-voorschou en een meettabel: je ziet wat de browser werkelijk toepast." />
+  <link rel="stylesheet" href="css/style.css?v=6" />
+  <link rel="stylesheet" href="css/klei.css?v=6" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-brand">
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu openen">☰ Onderdelen</button>
+      <span>CSS</span>
+      <span class="badge">5de jaar</span>
+    </div>
+    <div class="topbar-meta">
+      <div>Auteur: <strong>Steven Vandersmissen</strong></div>
+      <div id="levelLabel">5de jaar · front-end</div>
+    </div>
+  </header>
+
+  <div class="overlay" id="overlay"></div>
+
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-head">CSS · van selector tot doos</div>
+      <nav id="sidebarNav" aria-label="Hoofdnavigatie"></nav>
+      <div class="sidebar-foot">
+        CSS-cursus · <span id="foot-count">onderdelen</span><br />
+        © Steven Vandersmissen<br />
+        5de jaar · software development
+      </div>
+    </aside>
+
+    <main class="main" id="main"></main>
+  </div>
+
+  <footer class="site-footer">
+    <strong>CSS in de zandbak</strong> — stijlen die je zélf typt, gemeten in een afgeschermde browserlaag, met een live-voorschou ernaast ·
+    Auteur: <strong>Steven Vandersmissen</strong> ·
+    Brutalist UI · geen backend, geen opslag: herladen is proper beginnen
+  </footer>
+
+  <script src="js/sandbox.js"></script>
+  <script src="js/fakegit.js"></script>
+  <script src="js/checks.js"></script>
+  <script src="js/comp.js"></script>
+  <script src="js/klei.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
